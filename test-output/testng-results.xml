@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-12T22:43:35 PDT" name="Default suite" finished-at="2024-04-12T22:45:09 PDT" duration-ms="93641">
+    <groups>
+    </groups>
+    <test started-at="2024-04-12T22:43:35 PDT" name="Default test" finished-at="2024-04-12T22:45:09 PDT" duration-ms="93641">
+      <class name="TestRunner.EMITestRunner">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:43:35 PDT" name="setup" finished-at="2024-04-12T22:43:53 PDT" duration-ms="17875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="emiCalculatorClick()[pri:0, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:43:53 PDT" name="emiCalculatorClick" finished-at="2024-04-12T22:44:03 PDT" depends-on-methods="base.Setup.setup" duration-ms="9510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculatorClick -->
+        <test-method signature="emptyFields()[pri:1, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:03 PDT" name="emptyFields" description="Clicking on Calculate button without giving any data" finished-at="2024-04-12T22:44:11 PDT" duration-ms="8516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyFields -->
+        <test-method is-config="true" signature="emiCalculatorReset()[pri:0, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:11 PDT" name="emiCalculatorReset" finished-at="2024-04-12T22:44:18 PDT" duration-ms="6153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculatorReset -->
+        <test-method signature="emiCalculation(int,double,int,double,double,double,int,double)[pri:2, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:18 PDT" name="emiCalculation" data-provider="data-provider-emi" finished-at="2024-04-12T22:44:22 PDT" duration-ms="4210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[456.85]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[964.34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10964.34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculation -->
+        <test-method is-config="true" signature="emiCalculatorReset()[pri:0, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:22 PDT" name="emiCalculatorReset" finished-at="2024-04-12T22:44:28 PDT" duration-ms="6213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculatorReset -->
+        <test-method signature="emiCalculation(int,double,int,double,double,double,int,double)[pri:2, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:28 PDT" name="emiCalculation" data-provider="data-provider-emi" finished-at="2024-04-12T22:44:32 PDT" duration-ms="4377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[325000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6825.6]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[84536.3]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[4875]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[409536.3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculation -->
+        <test-method is-config="true" signature="emiCalculatorReset()[pri:0, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:32 PDT" name="emiCalculatorReset" finished-at="2024-04-12T22:44:39 PDT" duration-ms="6145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculatorReset -->
+        <test-method signature="emiCalculation(int,double,int,double,double,double,int,double)[pri:2, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:39 PDT" name="emiCalculation" data-provider="data-provider-emi" finished-at="2024-04-12T22:44:43 PDT" duration-ms="3948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[450000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[7705.1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[197228.1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[8100]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[647228.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculation -->
+        <test-method is-config="true" signature="emiCalculatorReset()[pri:0, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:43 PDT" name="emiCalculatorReset" finished-at="2024-04-12T22:44:49 PDT" duration-ms="6181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculatorReset -->
+        <test-method signature="emiCalculation(int,double,int,double,double,double,int,double)[pri:2, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:49 PDT" name="emiCalculation" data-provider="data-provider-emi" finished-at="2024-04-12T22:44:53 PDT" duration-ms="4048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[99000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.25]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2487190.53]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2.038514546E7]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1237500]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1.1938514546E8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculation -->
+        <test-method is-config="true" signature="emiCalculatorReset()[pri:0, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:53 PDT" name="emiCalculatorReset" finished-at="2024-04-12T22:44:59 PDT" duration-ms="6155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculatorReset -->
+        <test-method signature="emiCalculation(int,double,int,double,double,double,int,double)[pri:2, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:44:59 PDT" name="emiCalculation" data-provider="data-provider-emi" finished-at="2024-04-12T22:45:03 PDT" duration-ms="4009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14.25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[824.02]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[38994.07]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1100]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[88994.07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculation -->
+        <test-method is-config="true" signature="emiCalculatorReset()[pri:0, instance:TestRunner.EMITestRunner@740cae06]" started-at="2024-04-12T22:45:03 PDT" name="emiCalculatorReset" finished-at="2024-04-12T22:45:09 PDT" duration-ms="6172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emiCalculatorReset -->
+      </class> <!-- TestRunner.EMITestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
